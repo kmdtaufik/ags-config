@@ -1,0 +1,45 @@
+// ==========================================
+// THEME: Aurora Midnight
+// ==========================================
+
+// --- Base16 Palette ---
+$base00: #03090e; // Absolute Void (Deepest Teal-Black)
+$base01: #0b141f; // Dark Ice (Lighter Background)
+$base02: #142232; // Deep Water (Selection/Active)
+$base03: #253850; // Frozen Steel (Muted/Ghost text)
+$base04: #39506d; // Muted Cobalt (UI Borders/Dark Text)
+$base05: #eefeff; // Glacial White (Main Text)
+$base06: #cceeff; // Ice Mist (Hover States)
+$base07: #ffffff; // Pure White (Peak Highlights)
+$base08: #ff2a6d; // Radical Red (Errors/Warnings)
+$base09: #ff8800; // Plasma Orange (Options)
+$base0A: #ffcc00; // High-Voltage Yellow (Alerts/Strings)
+$base0B: #05ffa1; // Kryptonite Green (Success)
+$base0C: #00ffff; // Cyan Laser (Primary Accent)
+$base0D: #00aeff; // Electric Blue (Secondary Accent)
+$base0E: #b700ff; // Ultraviolet (Tertiary Accent)
+$base0F: #ff00cc; // Hot Fuchsia (Special)
+
+// --- Semantic Mapping for AGS ---
+// Use these in your widget styling so your code stays readable!
+
+// Backgrounds & Surfaces
+$bg: $base00; // Main window backgrounds (e.g., Bar, App Launcher)
+$bg-alt: $base01; // Secondary panels or tooltips
+$bg-hover: $base02; // Button hover states
+$bg-active: $base03; // Active workspace background
+
+// Text & Foreground
+$fg: $base05; // Standard text
+$fg-muted: $base04; // Dimmed text (e.g., inactive workspaces, clocks)
+$fg-bright: $base07; // Highlighted text
+
+// Borders & Dividers
+$border: $base03; // Standard widget borders
+$border-focus: $base0C; // Focused input borders (Cyan)
+
+// Status Colors (Great for Battery, Network, Volume widgets)
+$accent: $base0C; // Main Theme Accent (Cyan Laser)
+$success: $base0B; // Battery charging / WiFi connected (Kryptonite Green)
+$warning: $base0A; // Battery low / Storage high (High-Voltage Yellow)
+$error: $base08; // Disconnected / Muted (Radical Red)
